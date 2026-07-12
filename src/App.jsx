@@ -110,8 +110,8 @@ function App() {
           <Timeline />
         </div>
 
-        <Footer handleNavLinkClick={handleNavLinkClick} />
       </main>
+      <Footer handleNavLinkClick={handleNavLinkClick} />
     </>
   );
 }

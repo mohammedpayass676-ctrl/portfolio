@@ -13,7 +13,7 @@ export default function Hero({ handleNavLinkClick }) {
           <a href="#contact" className="btn btn-primary" onClick={(e) => handleNavLinkClick(e, 'contact')}>
             Hire Me <i className="fa-solid fa-arrow-right"></i>
           </a>
-          <a href="#" className="btn btn-secondary">Download CV <i className="fa-solid fa-download"></i></a>
+          <a href="/assets/images/Mohammed_Resume.pdf" target="_blank" download="Mohammed_Resume.pdf" className="btn btn-secondary">Download CV <i className="fa-solid fa-download"></i></a>
         </div>
         <div className="hero-stats" data-aos="fade-up" data-aos-delay="300">
           <div className="stat">

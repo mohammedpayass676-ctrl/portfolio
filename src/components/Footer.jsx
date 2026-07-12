@@ -4,16 +4,18 @@ export default function Footer({ handleNavLinkClick }) {
   return (
     <>
       {/* CTA Section */}
-      <section className="cta-banner" data-aos="zoom-in" data-aos-duration="1000" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
-        <div className="cta-content">
-          <h2>Let's Build Something Together</h2>
-          <p>I'm available for new opportunities and exciting projects.</p>
-          <a href="#contact" className="btn btn-white mt-2" onClick={(e) => handleNavLinkClick(e, 'contact')}>
-            Get in Touch <i className="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-        <img src="/assets/images/hero2.png" style={{ width: '400px', height: 'auto' }} alt="CTA" className="cta-img" data-aos="fade-up" data-aos-delay="400" />
-      </section>
+      <div className="container">
+        <section className="cta-banner" data-aos="zoom-in" data-aos-duration="1000" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+          <div className="cta-content">
+            <h2>Let's Build Something Together</h2>
+            <p>I'm available for new opportunities and exciting projects.</p>
+            <a href="#contact" className="btn btn-white mt-2" onClick={(e) => handleNavLinkClick(e, 'contact')}>
+              Get in Touch <i className="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          <img src="/assets/images/hero2.png" style={{ width: '400px', height: 'auto' }} alt="CTA" className="cta-img" data-aos="fade-up" data-aos-delay="400" />
+        </section>
+      </div>
 
       {/* Footer */}
       <footer id="contact" data-aos="fade-up">

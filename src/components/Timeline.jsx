@@ -18,7 +18,7 @@ export default function Timeline() {
         </div>
         <div className="c-line"></div>
         <div className="c-step active">
-          <h6>2022 - Present</h6>
+          <h6>2024 - Present</h6>
           <p>Senior PHP Developer</p>
           <small>Creative Bees</small>
         </div>
