@@ -56,7 +56,7 @@ export default function Experience() {
           data-aos-delay="100"
         >
           <div className="mexp-left">
-            <div className="mexp-year">2021<br /><span>2022</span></div>
+            <div className="mexp-year">2022<br /><span>2022</span></div>
             <div className="mexp-company">
               <div className="company-logo"><i className="fa-solid fa-laptop-code"></i></div>
               <span>Qono Technologies</span>

@@ -6,13 +6,13 @@ export default function Timeline() {
       <div className="card-header"><i className="fa-solid fa-timeline"></i> CAREER TIMELINE</div>
       <div className="career-timeline">
         <div className="c-step">
-          <h6>2021</h6>
+          <h6>2022</h6>
           <p>Jr PHP Developer</p>
           <small>Qono Technologies</small>
         </div>
         <div className="c-line"></div>
         <div className="c-step">
-          <h6>2022</h6>
+          <h6>2023</h6>
           <p>PHP Developer</p>
           <small>Qono Technologies</small>
         </div>
