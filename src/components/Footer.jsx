@@ -66,7 +66,7 @@ export default function Footer({ handleNavLinkClick }) {
             <ul className="contact-info-list">
               <li><i className="fa-solid fa-phone text-green"></i> +91 9361276781</li>
               <li><i className="fa-solid fa-envelope text-green"></i> mohammedpayass03@gmail.com</li>
-              <li><i className="fa-solid fa-location-dot text-green"></i> Pollachi, Tamil Nadu, India</li>
+              <li><i className="fa-solid fa-location-dot text-green"></i> Coimbatore, Tamil Nadu, India</li>
             </ul>
           </div>
         </div>

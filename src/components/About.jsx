@@ -2,20 +2,20 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section 
-      id="about" 
-      className="card about-card" 
-      data-aos="fade-up" 
-      data-tilt 
-      data-tilt-max="1" 
+    <section
+      id="about"
+      className="card about-card"
+      data-aos="fade-up"
+      data-tilt
+      data-tilt-max="1"
       data-tilt-speed="400"
-      data-tilt-glare 
+      data-tilt-glare
       data-tilt-max-glare="0.05"
     >
       <div className="about-left">
         <div className="card-header"><i className="fa-regular fa-user"></i> ABOUT ME</div>
         <p className="about-desc">
-          Full Stack PHP Developer with 3+ years of experience in building dynamic web applications using PHP, 
+          Full Stack PHP Developer with 3+ years of experience in building dynamic web applications using PHP,
           Laravel, CodeIgniter, MySQL and modern technologies. I focus on performance, scalability and clean code.
         </p>
 
@@ -38,7 +38,7 @@ export default function About() {
             <i className="fa-solid fa-location-dot"></i>
             <div>
               <span>Location</span>
-              <strong>Pollachi, Tamil<br />Nadu, India</strong>
+              <strong>Coimbatore, Tamil<br />Nadu, India</strong>
             </div>
           </div>
           <div className="info-box">
