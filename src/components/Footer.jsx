@@ -69,7 +69,7 @@ export default function Footer({ handleNavLinkClick }) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2023 Mohammed Payass S. All rights reserved.</p>
+          <p>&copy; 2026 Mohammed Payass S. All rights reserved.</p>
         </div>
       </footer>
     </>
