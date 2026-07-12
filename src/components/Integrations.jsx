@@ -7,7 +7,7 @@ export default function Integrations() {
       <section className="card col-github" data-aos="flip-left" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.1">
         <div className="card-header"><i className="fa-brands fa-github"></i> GITHUB ACTIVITY</div>
         <div className="github-header">
-          <img src="assets/images/hero_avatar.png" alt="github" className="gh-avatar" />
+          <img src="/assets/images/hero_avatar.png" alt="github" className="gh-avatar" />
           <span>mohammedpayass</span>
         </div>
         <div className="gh-graph">

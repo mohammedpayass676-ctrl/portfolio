@@ -43,7 +43,7 @@ export default function Hero({ handleNavLinkClick }) {
         data-tilt-speed="400" 
         data-tilt-perspective="1000"
       >
-        <img src="assets/images/hero_avatar.png" alt="Mohammed Payass S" />
+        <img src="/assets/images/hero_avatar.png" alt="Mohammed Payass S" />
       </div>
     </section>
   );

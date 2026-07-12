@@ -13,7 +13,7 @@ export default function Projects({ activeProject, setActiveProject }) {
           {/* Card 1 */}
           <div 
             className={`project-deck-card ${activeProject === 0 ? 'active' : ''}`} 
-            style={{ backgroundImage: "url('assets/images/grocery_app.png')" }}
+            style={{ backgroundImage: "url('/assets/images/grocery_app.png')" }}
             onMouseEnter={() => setActiveProject(0)}
           >
             <div className="deck-overlay"></div>
@@ -37,7 +37,7 @@ export default function Projects({ activeProject, setActiveProject }) {
           {/* Card 2 */}
           <div 
             className={`project-deck-card ${activeProject === 1 ? 'active' : ''}`} 
-            style={{ backgroundImage: "url('assets/images/car_marketplace.png')" }}
+            style={{ backgroundImage: "url('/assets/images/car_marketplace.png')" }}
             onMouseEnter={() => setActiveProject(1)}
           >
             <div className="deck-overlay"></div>
@@ -61,7 +61,7 @@ export default function Projects({ activeProject, setActiveProject }) {
           {/* Card 3 */}
           <div 
             className={`project-deck-card ${activeProject === 2 ? 'active' : ''}`} 
-            style={{ backgroundImage: "url('assets/images/food_app.png')" }}
+            style={{ backgroundImage: "url('/assets/images/food_app.png')" }}
             onMouseEnter={() => setActiveProject(2)}
           >
             <div className="deck-overlay"></div>
@@ -83,7 +83,7 @@ export default function Projects({ activeProject, setActiveProject }) {
           {/* Card 4 */}
           <div 
             className={`project-deck-card ${activeProject === 3 ? 'active' : ''}`} 
-            style={{ backgroundImage: "url('assets/images/multi_service.png')" }}
+            style={{ backgroundImage: "url('/assets/images/multi_service.png')" }}
             onMouseEnter={() => setActiveProject(3)}
           >
             <div className="deck-overlay"></div>
@@ -107,7 +107,7 @@ export default function Projects({ activeProject, setActiveProject }) {
         <div className="card-header"><i className="fa-solid fa-play"></i> LIVE DEMO (ONLY)</div>
         <div className="demos-grid">
           <div className="demo-item">
-            <img src="assets/images/grocery_app.png" alt="Grocery App" />
+            <img src="/assets/images/grocery_app.png" alt="Grocery App" />
             <div className="demo-info">
               <h6>Grocery Delivery Application</h6>
               <p>Online grocery platform with product management, secure payments and delivery system.</p>
@@ -117,7 +117,7 @@ export default function Projects({ activeProject, setActiveProject }) {
             </div>
           </div>
           <div className="demo-item">
-            <img src="assets/images/car_marketplace.png" alt="Car Marketplace" />
+            <img src="/assets/images/car_marketplace.png" alt="Car Marketplace" />
             <div className="demo-info">
               <h6>Used Car Sales Platform</h6>
               <p>B2B sales platform with dealer onboarding, car insurance, and a fully completed automated FASTag activation module.</p>

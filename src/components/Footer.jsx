@@ -12,7 +12,7 @@ export default function Footer({ handleNavLinkClick }) {
             Get in Touch <i className="fa-solid fa-arrow-right"></i>
           </a>
         </div>
-        <img src="assets/images/hero2.png" style={{ width: '400px', height: 'auto' }} alt="CTA" className="cta-img" data-aos="fade-up" data-aos-delay="400" />
+        <img src="/assets/images/hero2.png" style={{ width: '400px', height: 'auto' }} alt="CTA" className="cta-img" data-aos="fade-up" data-aos-delay="400" />
       </section>
 
       {/* Footer */}

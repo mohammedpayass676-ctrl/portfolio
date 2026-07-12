@@ -52,7 +52,7 @@ export default function About() {
         <a href="#" className="btn btn-primary mt-3">Download CV <i className="fa-solid fa-download"></i></a>
       </div>
       <div className="about-right">
-        <img src="assets/images/hero2.png" alt="Mohammed Payass S" />
+        <img src="/assets/images/hero2.png" alt="Mohammed Payass S" />
       </div>
     </section>
   );
