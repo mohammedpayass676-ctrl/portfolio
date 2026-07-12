@@ -6,7 +6,7 @@ export default function Experience() {
       <div className="mexp-bg-shape shape-a"></div>
       <div className="mexp-bg-shape shape-b"></div>
 
-      <div 
+      <div
         className="card-header text-center w-100 mb-5 border-0 bg-transparent shadow-none"
         style={{ position: 'relative', zIndex: 2 }}
       >
@@ -15,17 +15,17 @@ export default function Experience() {
 
       <div className="mexp-container" style={{ position: 'relative', zIndex: 2 }}>
         {/* Experience 1 */}
-        <div 
-          className="mexp-card" 
-          data-tilt 
-          data-tilt-max="2" 
-          data-tilt-speed="400" 
+        <div
+          className="mexp-card"
+          data-tilt
+          data-tilt-max="2"
+          data-tilt-speed="400"
           data-tilt-glare
-          data-tilt-max-glare="0.05" 
+          data-tilt-max-glare="0.05"
           data-aos="fade-up"
         >
           <div className="mexp-left">
-            <div className="mexp-year">2022<br /><span>Present</span></div>
+            <div className="mexp-year">2024<br /><span>Present</span></div>
             <div className="mexp-company">
               <div className="company-logo"><i className="fa-solid fa-code"></i></div>
               <span>Creative Bees</span>
@@ -45,14 +45,14 @@ export default function Experience() {
         </div>
 
         {/* Experience 2 */}
-        <div 
-          className="mexp-card" 
-          data-tilt 
-          data-tilt-max="2" 
-          data-tilt-speed="400" 
+        <div
+          className="mexp-card"
+          data-tilt
+          data-tilt-max="2"
+          data-tilt-speed="400"
           data-tilt-glare
-          data-tilt-max-glare="0.05" 
-          data-aos="fade-up" 
+          data-tilt-max-glare="0.05"
+          data-aos="fade-up"
           data-aos-delay="100"
         >
           <div className="mexp-left">
